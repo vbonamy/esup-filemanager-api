@@ -1,0 +1,20 @@
+<xs:schema
+    xmlns="https://www.esup-portail.org/schemas/esup-filemanager"
+    targetNamespace="https://www.esup-portail.org/schemas/esup-filemanager"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+    <xs:element name="DownloadRequest">
+        <xs:complexType>
+            <xs:attribute name="url" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="DownloadResponse">
+        <xs:complexType>
+            <xs:attribute name="summary" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+ 
+</xs:schema>
