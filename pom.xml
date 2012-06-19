@@ -9,6 +9,20 @@
     <version>3.0.0-SNAPSHOT</version>
     <description>The esup-filemanager schema and API.</description>
 
+    <distributionManagement>
+      <repository>
+        <id>mvn.esup-portail.org</id>
+        <name>esup-portail</name>
+        <url>https://mvn.esup-portail.org/content/repositories/releases</url>
+      </repository>
+      <snapshotRepository>
+        <id>mvn.esup-portail.org</id>
+        <name>esup-portail</name>
+        <url>https://mvn.esup-portail.org/content/repositories/snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>
+
+
     <dependencies>
         <dependency>
             <groupId>org.jvnet.jaxb2_commons</groupId>
